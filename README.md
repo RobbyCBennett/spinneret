@@ -1,7 +1,7 @@
 # 🕷 Spinneret 🕸
 Zero-dependency web framework for Node.js
 
-# 🧠 Design Philosophy
+# Design Philosophy
 
 * Simple API
 * Efficient asynchronous middleware
@@ -10,14 +10,12 @@ Zero-dependency web framework for Node.js
 * Extensible as Node.js
 * Fast startup & responses
 
-# 📥 Installation
-Shell
-```sh
-cd MY_EXISTING_REPO_HERE
-git submodule add git@github.com:RobbyCBennett/spinneret.git
-```
+# Installation
 
-JavaScript
+Copy the repository into your repository or add it as a git submodule
+
+# Usage
+
 ```js
 // Import classes and functions from modules
 const Env    = require('./spinneret/src/env')
@@ -25,7 +23,7 @@ const parse  = require('./spinneret/src/parse')
 const Server = require('./spinneret/src/server')
 ```
 
-# 📚 Features & Documentation
+# Features & Documentation
 
 ### [Env](doc/env.md)
 * Read environment variables
